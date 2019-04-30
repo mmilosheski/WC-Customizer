@@ -65,7 +65,7 @@ class WCCustomizer {
 	 */
 	public function render_admin_page() {
 		if ( is_admin() === true ) {
-			include( 'inc/admin.php' );
+			include( 'templates/admin/admin.php' );
 		}
 	}
 
@@ -84,14 +84,14 @@ class WCCustomizer {
 			return;
 		}
 
-		wp_enqueue_style( 'wc-customizer-admin-css', plugins_url( 'css/wc-customizer-admin.css', __FILE__ ) );
+		wp_enqueue_style( 'wc-customizer-admin-css', plugins_url( 'assets/css/wc-customizer-admin.css', __FILE__ ) );
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'jquery-form' );
-		wp_enqueue_script( 'wc-customizer-admin-js', plugins_url( 'js/wc-customizer-admin.js', __FILE__ ), [
+		wp_enqueue_script( 'wc-customizer-admin-js', plugins_url( 'assets/js/wc-customizer-admin.js', __FILE__ ), [
 			'jquery',
 			'jquery-form'
 		] );
-		wp_enqueue_script( 'notifyjs', plugins_url( 'js/notify.min.js', __FILE__ ) );
+		wp_enqueue_script( 'notifyjs', plugins_url( 'assets/js/notify.min.js', __FILE__ ) );
 	}
 
 	/**
