@@ -1,0 +1,63 @@
+.rp-btn {
+	border:none;
+	cursor:pointer;
+	color: #fff;
+    text-decoration: none;
+    background: #21759b;
+    padding: 6px 8px;
+	font-size:20px;
+    border-radius: 2px;
+	-moz-border-radius: 2px;
+    border-bottom: 2px solid rgba(0,0,0,.2);
+	transform:all linear .17s;
+	-moz-transform:all linear .17s;
+}
+.rp-btn:hover {
+	background: #10648a;
+	color:#eee;
+}
+.rp-btn-default {
+	background:#fafafa;
+	color:#333;
+	font-weight:100;
+}
+.rp-btn-default:hover {
+	background:#ddd;
+	color:#111;
+}
+#wc-customizer {
+	width:50%;
+	min-width:250px;
+	max-width:500px;
+	float:left;
+}
+#wc-customizer label {
+	font-size:18px;
+	margin-bottom:5px;
+	display:block;
+	font-weight: bold;
+}
+#wc-customizer input[type="text"] {
+	font-size:20px;
+	display:block;
+	width:100%;
+	height: 48px;
+	margin-top:20px;
+	font-weight: 100;
+}
+.infotext {
+    font-size: 11px;
+    opacity: 0.88;
+	clear:both;
+	display:block;
+}
+#notify-wrapper-top-right {
+	z-index:99999;
+}
+.previewbox {
+	width:100%;
+}
+.selectit {
+	margin-bottom:15px;
+	display:block;
+}
