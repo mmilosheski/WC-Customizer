@@ -16,7 +16,7 @@ e.g.
 ## Images ##
 
 1. Admin section
-![alt text](https://github.com/mmilosheski/WC-Customizer/blob/master/screenshot-admin.png?raw=true)
+![alt text](https://github.com/mmilosheski/WC-Customizer/blob/master/assets/img/screenshot-admin.png?raw=true)
 
 1. Shop section
-![alt text](https://github.com/mmilosheski/WC-Customizer/blob/master/screenshot-shop.png?raw=true)
+![alt text](https://github.com/mmilosheski/WC-Customizer/blob/master/assets/img/screenshot-shop.png?raw=true)
